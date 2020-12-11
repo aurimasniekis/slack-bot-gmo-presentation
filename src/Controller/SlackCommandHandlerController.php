@@ -31,7 +31,7 @@ class SlackCommandHandlerController extends AbstractController
     }
 
     /**
-     * @Route("/slack/command/handler", name="slack_command_handler")
+     * @Route("/slack/command", name="slack_command_handler")
      * @param Request $request
      * @return Response
      */
